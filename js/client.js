@@ -18,4 +18,5 @@ function init() {
   exam.addEventListener("mousemove", updateXray);
   exam.addEventListener("touchmove", updateXray);
 }
-
+/* Adding the EventListener */
+window.addEventListener('load', init); 
